@@ -1,0 +1,14 @@
+theia@theia-docker-container:/home/project/final_project$ python3
+Python 3.11.5 (main, Sep 11 2023, 13:54:19) [GCC 11.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from EmotionDetection.emotion_detection import emotion_detector
+>>> print(emotion_detector('I am really mad about this'))
+{'anger': 0.85, 'disgust': 0.03, 'fear': 0.04, 'joy': 0.05, 'sadness': 0.04, 'dominant_emotion': 'anger'}
+>>> exit()
+theia@theia-docker-container:/home/project/final_project$ python3 test_emotion_detection.py
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+OK
+
