@@ -1,0 +1,7 @@
+theia@theia-docker-container:/home/project/final_project$ python3 test_emotion_detection.py
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.812s
+
+OK
+
