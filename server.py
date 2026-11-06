@@ -10,7 +10,7 @@ app = Flask("Emotion Detector")
 @app.route("/emotionDetector")
 def sent_analyzer():
     """
-    This function analyzes the text input for emotions 
+    This function analyzes the text input for emotions
     using the emotion_detector module and returns a formatted string.
     """
     # Lấy đoạn text từ URL query parameter
