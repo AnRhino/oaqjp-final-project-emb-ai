@@ -1,0 +1,3 @@
+theia@theia-docker-container:/home/project/final_project$ python3 -c "from EmotionDetection.emotion_detection import emotion_detector; print(emotion_detector('I am very angry'))"
+{'anger': 0.6395548, 'disgust': 0.01258661, 'fear': 0.00792574, 'joy': 0.01021287, 'sadness': 0.04018274, 'dominant_emotion': 'anger'}
+
